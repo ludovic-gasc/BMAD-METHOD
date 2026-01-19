@@ -30,6 +30,12 @@ platforms:
     category: ide
     description: "AI-first code editor"
 
+  ibm-bob:
+    name: "IBM Bob"
+    preferred: true
+    category: ide
+    description: "IBM's AI-powered VS Code fork with custom modes"
+
   # Other IDEs and Tools
   cline:
     name: "Cline"

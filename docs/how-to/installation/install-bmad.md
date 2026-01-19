@@ -14,7 +14,7 @@ Use the `npx bmad-method install` command to set up BMad in your project with yo
 :::note[Prerequisites]
 - **Node.js** 20+ (required for the installer)
 - **Git** (recommended)
-- **AI-powered IDE** (Claude Code, Cursor, Windsurf, or similar)
+- **AI-powered IDE** (Claude Code, Cursor, IBM Bob, Windsurf, or similar)
 :::
 
 ## Steps
@@ -36,12 +36,17 @@ The installer will ask where to install BMad files:
 
 Choose which AI tools you'll be using:
 
-- Claude Code
-- Cursor
-- Windsurf
--  Many others to choose from
+- **Claude Code** - Anthropic's official CLI for Claude
+- **Cursor** - AI-first code editor
+- **IBM Bob** - IBM's AI-powered VS Code fork with custom modes ([Installation Guide](./install-ibm-bob.md))
+- **Windsurf** - AI-powered IDE with cascade flows
+- Many others to choose from
 
 The installer configures BMad for your selected tools by setting up commands that will call the ui.
+
+:::tip[IBM Bob Users]
+IBM Bob receives special integration with custom modes and custom instructions. See the [IBM Bob Installation Guide](./install-ibm-bob.md) for details.
+:::
 
 ### 4. Choose Modules
 

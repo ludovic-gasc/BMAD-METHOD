@@ -1,5 +1,30 @@
 # Changelog
 
+## [Unreleased]
+
+### 🎉 New Platform Support
+
+**IBM Bob Integration:**
+
+- **Custom Modes Generation**: Automatic conversion of all BMAD agents to IBM Bob custom modes
+- **Custom Instructions**: Hierarchical instruction system with general and mode-specific rules
+- **Tool Permissions Mapping**: Intelligent mapping of agent capabilities to Bob tool groups (read, edit, browser, execute)
+- **File Restrictions**: Regex-based file access control for specialized modes (e.g., documentation writers limited to .md files)
+- **Project-Level Configuration**: `.bob/` directory structure for version-controlled team standards
+- **Mode-Specific Rules**: Separate instruction directories for each agent mode (`.bob/rules-{slug}/`)
+- **YAML Configuration**: Modern YAML format for custom modes with full property support
+- **Comprehensive Documentation**: Installation guide and platform reference documentation
+
+**Files Added:**
+- `tools/cli/installers/lib/ide/ibm-bob.js` - IBM Bob IDE handler
+- `docs/how-to/installation/install-ibm-bob.md` - Installation guide
+- `docs/reference/platforms/ibm-bob.md` - Platform reference
+
+**Files Modified:**
+- `tools/platform-codes.yaml` - Added IBM Bob as preferred platform
+- `README.md` - Added IBM Bob to prerequisites and quick start
+- `docs/how-to/installation/install-bmad.md` - Added IBM Bob to IDE selection
+
 ## [6.0.0-alpha.23]
 
 **Release: January 11, 2026**
